@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'zzhForWantWant_Example' do
+  pod 'zzhForWantWant', :path => '../'
+
+  target 'zzhForWantWant_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
