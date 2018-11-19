@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - zzhForWantWant (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - zzhForWantWant (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  zzhForWantWant:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  zzhForWantWant: 72590a9940a70c260cf3d7e41b682693b9182cd3
+
+PODFILE CHECKSUM: 4dbec32696128a53a325fc7e476f4ba03999d282
+
+COCOAPODS: 1.5.0

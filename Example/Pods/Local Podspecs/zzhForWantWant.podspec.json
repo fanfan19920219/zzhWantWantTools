@@ -1,0 +1,22 @@
+{
+  "name": "zzhForWantWant",
+  "version": "0.1.0",
+  "summary": "A short description of zzhForWantWant.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fanfan19920219/zzhForWantWant",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanfan19920219": "406608969@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fanfan19920219/zzhForWantWant.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "zzhForWantWant/Classes/**/*"
+}

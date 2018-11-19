@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				1434B2889453613C1C052293 /* [CP] Embed Pods Frameworks */,
+				BDC073D07972D92BD54FAE5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,24 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1434B2889453613C1C052293 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-zzhForWantWant_Example/Pods-zzhForWantWant_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/zzhForWantWant/zzhForWantWant.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zzhForWantWant.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zzhForWantWant_Example/Pods-zzhForWantWant_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		399F92F837B3D92581F47535 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +329,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zzhForWantWant_Tests/Pods-zzhForWantWant_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC073D07972D92BD54FAE5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zzhForWantWant_Example/Pods-zzhForWantWant_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/zzhForWantWant/zzhForWantWant.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zzhForWantWant.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zzhForWantWant_Example/Pods-zzhForWantWant_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC1FD39D5DAEEA0D6929E54A /* [CP] Check Pods Manifest.lock */ = {
